@@ -1,0 +1,67 @@
+body{
+	background-image: url(img/bg.jpg);
+	background-size: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+#rectOne{
+	background: black;
+	opacity: 0.8;
+	position: absolute;
+	width: 350px;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.link{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 250px;
+	position: relative;
+	font-size: 21px;
+	color: white;
+    left: 42px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+	border: 2px solid white;
+	border-radius: 100px;
+    display: inline-block;
+    transition: transform 0.2s linear, color 0.1s linear, background 0.1s linear;
+}
+
+.link:hover{
+    transform: scale(1.05);
+    background-color: white;
+    color: black;
+    transition: transform 0.2s linear, color 0.1s linear, background 0.1s linear;
+    
+}
+
+#title{
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+	color: white;
+	position: relative;
+	margin-left: 11px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.copyright{
+	color: white;
+	position: absolute;
+	bottom: 10px;
+	margin-left: 150px;
+}
